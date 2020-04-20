@@ -1,3 +1,8 @@
+/**
+ * Esta clase realiza una suma de digitos
+*@author Franco Matias Abiu Mahanaim
+*@version 19/04/2020
+ */
 import java.util.Scanner;//  Se importa la libreria para agregar el numero desde el teclado
 
 public class SumarDigitos {
