@@ -1,16 +1,11 @@
-/**
- * Esta clase realiza una suma de digitos
-*@author Franco Matias Abiu Mahanaim
-*@version 19/04/2020
- */
 import java.util.Scanner;//  Se importa la libreria para agregar el numero desde el teclado
 
 public class SumarDigitos {
 
-    public static void main(String[] args) {
+    
 
         Scanner sc = new Scanner(System.in);// Se declara la variable sc, en la cual se va a guardar el numero que el usuario introducira
-        System.out.print("Introduce un número para sumar sus digitos ");
+        
         String num =sc.nextLine(); // La cadena num guardara el numero que el usuario digite
         int numero=(new Integer(num)).intValue();//Se convierte el String a int
         int suma = 0;//La varible suma va a realizar la suma de los digitos del numero
@@ -19,7 +14,7 @@ public class SumarDigitos {
         
 
        
-
+public int Sumardigitoos() {
         while(numero > 0) {//repetira estas acciones hasta que el numero sea igual a 0 y ya no tenga digitos que sumar
 
             suma=suma + numero % 10;/*Hace esta operacion para sacar el digito de derecha a izquierda ya que tomara el residuo de la division
@@ -40,10 +35,11 @@ public class SumarDigitos {
             }
             
 
-        System.out.println("La suma de sus digitos es : " + suma);
+        return    suma;
 
     }
-    }
+}
+    
     
     
     
